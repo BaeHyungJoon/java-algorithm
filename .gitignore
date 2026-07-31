@@ -1,0 +1,15 @@
+# Java 컴파일 결과
+**/bin/
+*.class
+
+# Eclipse/STS workspace 개인 설정
+.metadata/
+**/.metadata/
+
+# 로그 및 임시 파일
+*.log
+*.tmp
+
+# 운영체제 파일
+Thumbs.db
+.DS_Store
