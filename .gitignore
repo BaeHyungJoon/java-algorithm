@@ -1,10 +1,14 @@
-# Java 컴파일 결과
-**/bin/
-*.class
-
-# Eclipse/STS workspace 개인 설정
+# STS / Eclipse 프로젝트별 로컬 설정
+.project
+.classpath
+.settings/
 .metadata/
-**/.metadata/
+*.launch
+
+# Java 빌드 결과
+**/bin/
+**/target/
+*.class
 
 # 로그 및 임시 파일
 *.log
