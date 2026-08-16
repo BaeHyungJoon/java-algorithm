@@ -17,3 +17,6 @@
 # 운영체제 파일
 Thumbs.db
 .DS_Store
+
+# vscode 설정 파일
+.vscode/
