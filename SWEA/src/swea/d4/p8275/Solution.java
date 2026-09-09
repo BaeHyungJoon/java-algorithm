@@ -48,6 +48,7 @@ public class Solution {
 			// 완전 탐색 시작
 			dfs(0, 0);
 			
+			// 결과 출력
 			output.append('#').append(testCase).append(' ');
 			
 			if (bestTotal == -1) {
@@ -65,7 +66,7 @@ public class Solution {
 		System.out.print(output);
 	}
 	
-	static void dfs(int idx, int total) {
+	static void dfs(int idx, int total) { // idx : 햄스터 수를 결정할 우리 인덱스, total : 앞에서 결정한 우리들의 햄스터 수 합계
 		
 		// 모든 우리의 햄스터 수를 결정
 		if (idx == N) {
