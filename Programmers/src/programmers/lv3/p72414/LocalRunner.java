@@ -1,7 +1,5 @@
 package programmers.lv3.p72414;
 
-import java.util.Arrays;
-
 public class LocalRunner {
 
 	public static void main(String[] args) {
@@ -10,7 +8,7 @@ public class LocalRunner {
 		
 		System.out.println("======= Test 1 =======");
 		String play_time1 = "02:03:55";
-		String adv_time1 = "25:00:00";
+		String adv_time1 = "00:14:15";
 		String[] logs1 = {"01:20:15-01:45:14", "00:40:31-01:00:00", "00:25:50-00:48:29", "01:30:59-01:53:29", "01:37:44-02:02:30"};
 		String answer1 = solution.solution(play_time1, adv_time1, logs1);
 		System.out.println(answer1);
