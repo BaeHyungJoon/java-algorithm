@@ -1,5 +1,12 @@
 package swea.모의SW역량테스트.p5648;
 
+/*
+ * <강사님 문제 접근 방식>
+ * - 두개 이상 원자 (문제 정확히 읽고 기억하기)
+ * - 시간의 흐름에 따른 시뮬레이션처럼 보인다.
+ * 
+ */
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
