@@ -3,7 +3,7 @@ package programmers.lv3.p76503;
 import java.util.*;
 
 class Solution {
-    
+  
 	public long solution(int[] a, int[][] edges) {
 		
 		// 정점들의 가중치 합이 0이 아닌 경우 -> 절대 모든 정점을 0으로 만들 수 없으므로 -1 return
